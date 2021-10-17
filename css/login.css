@@ -1,1 +1,59 @@
+.header {
+    margin-top: 30px;
+}
+.login-box {
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 gray;
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+h1 {
+    font-family: verdana, arial, helvetica;
+    text-align: center;
+    padding: 4px;
+}
 
+label {
+    font-weight: bold;
+    margin: 10px 8%;
+    padding: 10px;
+}
+input {
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    margin-top: 20px;
+}
+#login {
+    color: white;
+    background-color: green;
+    opacity: 0.8;
+    width: 60%;
+    border-radius: 25px;border: 1px solid white;
+}
+
+@media only screen and (max-width: 900px){
+    .login-box {
+        width: 60%;
+    }
+}
+
+@media only sreen and (max-width: 600px) {
+    .login-box {
+        width: 90%;
+    }
+}
